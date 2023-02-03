@@ -6,8 +6,7 @@ def createfile():
      shutil.copyfile("/app/temp/66.jpg", "/app/temp/68886.jpg")
 
 @app.route("/")
-def home():
-    createfile()
+def home(): 
     return jsonify({ 'name' : 'yunus'}) 
 
 @app.route("/CropFile")
