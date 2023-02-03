@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  helloworld:
+     build:
+       context: ./
+     ports:
+       - 8000:8000
+     volumes:
+        - /Users/yunus/Desktop/sil/temp:/app/temp
+          
